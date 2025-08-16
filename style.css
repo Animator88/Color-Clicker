@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: background-color 3s;
+}
+#button {
+  width: 150px;
+  height: 50px;
+  background-color: gray;
+  border-radius: 10px;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  box-shadow: 1px 1px 5px black;
+  font-family: Bungee;
+  cursor: pointer;
+}
+#button:active {
+  transform: scale(0.95);
+}
